@@ -1,0 +1,153 @@
+@charset "Utf-8";
+
+/* set the main content width and   */
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* sub-navigation menu style*/
+.subnav {
+    width: 18%;
+    height: 650px;
+    text-align: center;
+    background-color: rgb(125, 120, 89);
+    float: left;
+    line-height: 2em;
+
+}
+
+/* rest default margin and paddings, remove text decoration and list style*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Main title styling */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 30px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+/* Navigation menu list items styling */
+.menulist {
+    height: 45px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Navigation menu links styling */
+.menulist a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(190, 188, 172);
+    text-decoration: none;
+    padding: 30px;
+    list-style: none;
+    text-align: center;
+    border-color: black;
+}
+
+/* Title section styling */
+.title1 {
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin-top: 2px;
+}
+
+/* Main content section styling */
+.mainPart {
+    width: 65%;
+    float: left;
+}
+
+/* Paragraph styling in the main content section */
+.mainPart p {
+    width: 95%;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 1em;
+}
+
+/* Style for the first line of the first paragraph */
+.firstP::first-line {
+    text-transform: uppercase;
+}
+
+/* Revies section styling */
+.review {
+    background-color: #837924;
+    font-family: 'Comic Sans MS';
+    height: 150px;
+    width: 150px;
+    text-align: left;
+    color: aliceblue;
+    padding: 2em;
+    font-size: 17px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* Author of the review styling */
+.reviewauthor {
+    font-style: italic;
+}
+
+/* Right Aside section styling */
+.aside {
+    width: 28%;
+    float: right;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Intineray heading in the aside section styling */
+.aside h4 {
+    text-align: right;
+}
+
+/* Paragraphs in the aside section styling */
+.aside p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(140, 140, 140);
+    margin-bottom: 16px;
+}
+
+/* Heding 2 styling */
+h2 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+/* Image styling */
+image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer section styling */
+footer {
+    clear: both;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
